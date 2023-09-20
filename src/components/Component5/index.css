@@ -1,0 +1,14 @@
+
+/* ThemeToggle.css */
+
+/* Light Theme Styles */
+.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme Styles */
+.dark-theme {
+    background-color: #333333;
+    color: #ffffff;
+}
