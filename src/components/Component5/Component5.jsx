@@ -11,8 +11,6 @@ const Component5 = () => {
         setTheme(theme === "light" ? "dark" : "light")
     }
 
-
-
     return (
         <div className={`theme-toggle ${theme}-theme`}>
             <h1>Theme Toggle</h1>
