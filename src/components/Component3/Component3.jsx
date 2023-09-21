@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const Component3 = () => {
 
-    const [names, setNames] = useState(["Mike", "Joe", "Jorden", "Pence", "Sam"])
+    const [names, setNames] = useState(["Mike", "Joe", "Jorden", "Pence", "Sam", "John", "Sparky"])
 
     const [randomIndex, setRandomIndex] = useState(null);
 
         // rabdom name selector function
-    const selectRandomName = () => {
-        const newIndex = Math.floor(Math.random() * names.length)
-        setRandomIndex(newIndex)
-    };
+        
+        const selectRandomName = () => {
+            const newIndex = Math.floor(Math.random() * names.length)
+            setRandomIndex(newIndex)
+        };
 
 
     // function for currently selected name

@@ -73,3 +73,18 @@ button:focus-visible {
 .yellow {
   background-color: yellowgreen;
 }
+
+
+/* for the line on compelete todos */
+
+.line-through {
+  text-decoration: line-through;
+  /* color: red; */
+  text-emphasis-color: yellow;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
